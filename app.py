@@ -12,7 +12,7 @@ car = pd.read_csv("Cleaned_Car_data.csv")
 model = pickle.load(open("LinearRegressionModel.pkl", "rb"))
 
 # Pexels API Key
-PEXELS_API_KEY = "YOUR_PEXELS_API_KEY"
+PEXELS_API_KEY = "lnj76qHmDlObbRB3fjhLDCyyGWc6MaLgvJmvftuuLh2M1QhmzU3GDumb"
 
 
 @app.route("/")
